@@ -18,7 +18,7 @@ body{
 
 body.show-nav {
     /* Width of nav */
-    transform: translate(200px);
+    transform: translate(200px); /*It should match to the width of the nav*/
 }
 
 nav{
@@ -28,7 +28,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    width: 200px;
+    width: 200px;  /*Width of the nav bar*/
     height: 100vh;
     z-index: 100;
     transform: translate(-100%);
